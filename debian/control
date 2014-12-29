@@ -1,0 +1,12 @@
+Source: ros-indigo-icart-mini
+Section: misc
+Priority: extra
+Maintainer: Daiki Maekawa <method_aspect_card@yahoo.co.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/icart_mini
+Standards-Version: 3.9.2
+
+Package: ros-indigo-icart-mini
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-combine-dr-measurements, ros-indigo-force-rotate-recovery, ros-indigo-icart-mini-control, ros-indigo-icart-mini-description, ros-indigo-icart-mini-driver, ros-indigo-icart-mini-gazebo, ros-indigo-icart-mini-navigation, ros-indigo-waypoints-navigation
+Description: This package provides packages related to navigation of i-Cart mini.
