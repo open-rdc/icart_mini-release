@@ -18,66 +18,9 @@ $ cd ..
 $ catkin_make
 ```
 
-Note that the libypspur is needed. 
-
 ## Usage
 
-#### Bring up the real/simulated robot
-
-The following will show the commands needed to bring up either real or simulated robots.
-
- * Bring up the simulated robot
-
-```sh
-$ roslaunch icart_mini_gazebo icart_mini.launch
-```
-
- * Bring up the real robot
-
-```sh
-$ ./icart-mini.sh
-$ roslaunch icart_mini_driver icart_mini_drive.launch
-```
-
-#### Teleoperation with a joystick
-
-```sh
-$ roslaunch icart_mini_driver teleop_joy.launch
-```
-
-#### Build map
-
-```sh
-$ roslaunch icart_mini_navigation build_map_teleop.launch
-```
-
-#### Record the waypoints
-
- * Using the publish point on RViz
-
-```sh
-$ roslaunch icart_mini_navigation record_waypoints_viz.launch
-```
-
- * Using the Joystick
-
-```sh
-$ roslaunch icart_mini_navigation record_waypoints_joy.launch
-```
-
-#### Navigation
-
- * Waypoint Navigation
-
-```sh
-$ roslaunch icart_mini_navigation play_waypoints_nav.launch
-```
-
- * Path Planning and Navigation in static map
-
-```sh
-$ roslaunch icart_mini_navigation nav_static_map.launch
-```
+Please see [the icart_mini page on the ROS wiki](http://wiki.ros.org/icart_mini) for documentation.
 
 ## Task Management
 
@@ -88,3 +31,4 @@ https://github.com/open-rdc/TsukubaChallenge
 Copyright (c) 2014, Robot Design and Control Lab. (BSD License)
 
 See LICENSE for more info.
+
