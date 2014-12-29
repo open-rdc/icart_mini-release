@@ -1,3 +1,33 @@
+## icart_mini (indigo) - 0.1.2-0
+
+The packages in the `icart_mini` repository were released into the `indigo` distro by running `/usr/bin/bloom-release icart_mini --track indigo --rosdistro indigo --new-track` on `Mon, 29 Dec 2014 01:06:23 -0000`
+
+These packages were released:
+- `combine_dr_measurements`
+- `force_rotate_recovery`
+- `icart_mini`
+- `icart_mini_control`
+- `icart_mini_description`
+- `icart_mini_driver`
+- `icart_mini_gazebo`
+- `icart_mini_navigation`
+- `waypoints_navigation`
+
+Version of package(s) in repository `icart_mini`:
+- upstream repository: https://github.com/open-rdc/icart_mini.git
+- release repository: https://github.com/open-rdc/icart_mini-release.git
+- rosdistro version: `0.1.1-2`
+- old version: `0.1.1-2`
+- new version: `0.1.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## icart_mini (indigo) - 0.1.1-2
 
 The packages in the `icart_mini` repository were released into the `indigo` distro by running `/usr/bin/bloom-release icart_mini --track indigo --rosdistro indigo --new-track` on `Wed, 17 Dec 2014 10:45:36 -0000`
