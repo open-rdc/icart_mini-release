@@ -206,7 +206,3 @@ Versions of tools used:
 - rosdep version: `0.10.33`
 - rosdistro version: `0.3.6`
 - vcstools version: `0.1.35`
-
-
-icart_mini-release
-==================
